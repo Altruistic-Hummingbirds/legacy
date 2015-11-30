@@ -45,11 +45,11 @@
   color: white;
 }
 
-/*.navbar .nav li .logout {
+.logout {
   font-size: 20px;
   width: 100%;
 }
-*/
+
 .map {
   height: 100%;
 }
@@ -92,6 +92,14 @@ span.big {
 }
 
 .login {
-  width: 200px;
-  height: auto;
+  position: relative;
+}
+
+.landingPage {
+  background-color: #346392;
+  height: 300px;
+}
+
+.appname {
+
 }
