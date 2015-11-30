@@ -45,11 +45,11 @@
   color: white;
 }
 
-/*.navbar .nav li .logout {
+.logout {
   font-size: 20px;
   width: 100%;
 }
-*/
+
 .map {
   height: 100%;
 }
@@ -89,4 +89,25 @@
 
 span.big {
   font-size: 2em;
+}
+
+.login {
+  width: 100%;
+  text-align: center;
+}
+
+.landingPage {
+  background-color: #e6e6e6;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+}
+
+.appname {
+  position: relative;
+  top: 15%;
+  font-family: 'Courier New';
+  font-weight: bold;
+  font-size: 150px;
 }
