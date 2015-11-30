@@ -90,3 +90,8 @@
 span.big {
   font-size: 2em;
 }
+
+.login {
+  width: 200px;
+  height: auto;
+}
