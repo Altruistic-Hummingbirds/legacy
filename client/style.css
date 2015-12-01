@@ -104,10 +104,41 @@ span.big {
   padding: 5px;
 }
 
+.pageHeader {
+  background-color: #e6e6e6;
+  height: 50px;
+  width: 100%;
+  text-align: left;
+  padding: 5px;
+}
+
+
 .appname {
   position: relative;
   top: 15%;
   font-family: 'Courier New';
   font-weight: bold;
   font-size: 150px;
+}
+
+.appnameNotLanding {
+  padding-left: 10px;
+  position: absolute;
+  top: -10px;
+  font-family: 'Courier New';
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#mapMake {
+  float: left;
+  padding-top: 50px;
+  left: 200px;
+}
+
+#logoff {
+  padding-top: 50px;
+  font-size: 300px;
+  color: #333333;
+  right: -50px;
 }
