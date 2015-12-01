@@ -1,14 +1,10 @@
-<h1 class = 'jumbotron'>mapchat</h1>
+<div class="pageHeader">
+  <h1 class="appnameNotLanding">mapchat</h1>
+</div>
+
+<div height='50'></div>
+
 <div id = 'facebook'>
-  <div class='navbar col-md-4 col-sm-4 col-xs-6 col-md-offset-4 col-sm-offset-4 col-xs-offset-6'>
-    <div class='nav'>
-      <li><a href='#/mapMaker' class='create'>Create a mapchat!</a></li>
-      <li class="facebook-logout"><a ng-click="logout()" href='#/logout' class='logout'><span class="glyphicon glyphicon-off small" aria-hidden="true"></span></a></li>
-
-    </div>
-
-  </div>
-  <div>
-    <!-- <img class="picture" src='{{me.picture}}'></img> -->
-  </div>
+  <span><a href='#/mapMaker' class='create'><img id="mapMake" src="app/facebook/createmap.png" width='300' /></a></span>
+  <a ng-click="logout()" href='#/logout' class='logout'><span id="logoff" class="glyphicon glyphicon-off" aria-hidden="true"></span></a>
 </div>
